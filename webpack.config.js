@@ -38,7 +38,8 @@ module.exports = {
                                 }
                             }], "@babel/preset-env"],
                         plugins: [
-                            "react-hot-loader/babel"
+                            "react-hot-loader/babel",
+                            "@babel/plugin-transform-runtime"
                         ]
                     }
                 }
